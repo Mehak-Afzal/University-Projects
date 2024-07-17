@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        <div class="menu-toggle">
+            <span>&#9776;</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/final.html">Home</a></li>
+            <li><a href="/education.html">Education</a></li>
+            <li><a href="/experience.html">Experience</a></li>
+            <li><a href="/cv.html">CV</a></li>
+            <li><a href="/project.html">Project</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="edc">
+            <strong>CodSoft Internship</strong>
+            <p>Virtual Internship at CodSoft</p>
+            <p>in JAVA Programming Language</p>
+            <p>I have done virtual Java Internship, I was assigned few Java tasks
+                that improved my logic building. By this internship I have 
+                utilized my skills and it motivated me to learn more about Java</p>
+            <em>Duration: 2 months</em>
+        </div>
+        <div class="edc">
+            <strong>Web developer</strong>
+            <p>Web developer at Rydh </br></br><em>(startup by university students)</em></p>
+            <p>I have created 2 projects using HTML, CSS, Java Script. One website was for 
+                basic shopping of men and the other was for Cosmetics for women</p>
+            <em>Duration: 2023-current</em>
+        </div>
+    </div>
+    <footer>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/mehak-afzal-025959284/"><img src="/linkedin-logo.png"></a>
+            <a href="https://github.com/"><img src="/github.png"></a>
+            <a href="https://www.facebook.com/TwitterInc/"><img src="twitter.png"></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="instagram.png"></a> 
+        </div>
+        <div>
+            <p>Contact me on any given accounts or send me message through my portfolio via Contact section </p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            const menuToggle=document.querySelector('.menu-toggle');
+            const navLinks=document.querySelector('.nav-links');
+            menuToggle.addEventListener('click',function(){
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>

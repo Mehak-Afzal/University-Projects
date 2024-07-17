@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        <div class="menu-toggle">
+            <span>&#9776;</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/final.html">Home</a></li>
+            <li><a href="/education.html">Education</a></li>
+            <li><a href="/experience.html">Experience</a></li>
+            <li><a href="/cv.html">CV</a></li>
+            <li><a href="/project.html">Project</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="edc">
+            <strong>Matriculation Level</strong>
+            <p>Matric in Computer Science</p>
+            <p>from F.G Fazaia school</p>
+            <em>2017-2019</em>
+        </div>
+        <div class="edc">
+            <strong>Intermediate Level</strong>
+            <p>Intermediate in Pre-Engineering</p>
+            <p>from Fazaia Inter College</p>
+            <em>2019-2021</em>
+        </div>
+        <div class="edc">
+            <strong>Bachelors level</strong>
+            <p>Bachelors in Computer Science</p>
+            <p>at Comsats University, Islamabad</p>
+            <em>2022-current</em>
+        </div>
+    </div>
+    <footer>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/mehak-afzal-025959284/"><img src="/linkedin-logo.png"></a>
+            <a href="https://github.com/"><img src="/github.png"></a>
+            <a href="https://www.facebook.com/TwitterInc/"><img src="twitter.png"></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="instagram.png"></a>
+            
+            
+        </div>
+        <div>
+            <p>Contact me on any given accounts or send me message through my portfolio via Contact section </p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            const menuToggle=document.querySelector('.menu-toggle');
+            const navLinks=document.querySelector('.nav-links');
+            menuToggle.addEventListener('click',function(){
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
